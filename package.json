@@ -41,5 +41,10 @@
     "prettier-plugin-astro": "^0.14.1",
     "tsx": "^4.19.2",
     "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "eslint-plugin-deprecation": {
+      "typescript": "$typescript"
+    }
   }
 }
