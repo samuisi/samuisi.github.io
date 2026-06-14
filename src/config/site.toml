@@ -89,10 +89,6 @@ label = "Projects"
 href = "/projects"
 
 [[config.topNav.links]]
-label = "Vibe"
-href = "/vibe"
-
-[[config.topNav.links]]
 label = "About"
 href = "/about"
 
@@ -100,23 +96,15 @@ href = "/about"
 layout = "grid"
 
 [config.home.quote]
-text = [
-  "Navigate your world,",
-  "Showcase your story,",
-  "and keep everything in one place.",
-]
+text = ["追寻能让自己感到快乐的东西"]
 image = "/images/logo-with-name.png"
 
 [config.home.intro]
-title = "here is navfolio"
-name = "navfolio"
+title = "hi, im samuisi"
+name = "samuisi"
 body = [
-  "The name combines \"Navigation\" and \"Portfolio\".",
-  "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
-  "It’s less a resume than a personal OS for your ideas, projects, notes, and online presence.",
-  "这个名字融合了“导航”与“作品集”。",
-  "Navfolio 专注于轻量级组织、流畅的阅读体验，以及对开发者友好的美学设计。",
-  "它不像一份简历，更像是一个属于你自己的个人操作系统——承载想法、项目、笔记与网络足迹。",
+  "一个正在努力转行 AI 的 C++ developer。",
+  "对技术祛魅的最好方式就是掌握它。",
 ]
 image = "/images/logo-cat.png"
 
@@ -129,38 +117,33 @@ startDate = ""
 dateArchiveBaseHref = ""
 
 [[config.home.navigation]]
-icon = "compass"
-title = "Portfolio"
-subtitle = "Selected work and case studies"
-href = "https://astro.navfolio.site/"
-
-[[config.home.navigation]]
 icon = "pen"
 title = "Blog"
-subtitle = "Essays, notes, and field reports"
+subtitle = "技术文章与学习笔记"
 href = "/blog"
 
 [[config.home.navigation]]
 icon = "briefcase"
-title = "Resume"
-subtitle = "Career profile and experience"
-href = "https://github.com/dodolalorc/navfolio"
+title = "Projects"
+subtitle = "我做过的项目"
+href = "/projects"
 
 [[config.home.navigation]]
 icon = "github"
-title = "Open Source"
-subtitle = "Code, experiments, and tools"
-href = "https://github.com/dodolalorc/astro-navfolio"
+title = "GitHub"
+subtitle = "代码与开源项目"
+href = "https://github.com/samuisi"
+
+[[config.home.navigation]]
+icon = "compass"
+title = "About"
+subtitle = "关于我"
+href = "/about"
 
 [[config.home.connect]]
 label = "GitHub"
-href = "https://github.com/dodolalorc/astro-navfolio"
+href = "https://github.com/samuisi"
 icon = "github"
-
-[[config.home.connect]]
-label = "Website"
-href = "https://astro.navfolio.site/"
-icon = "compass"
 
 [[config.home.connect]]
 label = "Blog"
@@ -172,27 +155,14 @@ label = "Projects"
 href = "/projects"
 icon = "repo"
 
-[[config.home.connect]]
-label = "Email"
-href = "mailto:hello@navfolio.site"
-icon = "mail"
-
 [[config.home.doing]]
-text = "Shipping a personal dashboard template"
+text = "学习 Transformer 原理与实现"
 mark = "01"
 
 [[config.home.doing]]
-text = "Writing reusable notes for future projects"
+text = "跟进 DLSys Course"
 mark = "02"
 
 [[config.home.doing]]
-text = "Improving static-site publishing workflow"
+text = "AI 方向求职中"
 mark = "03"
-
-[[config.home.doing]]
-text = "Collecting useful developer resources"
-mark = "04"
-
-[[config.home.doing]]
-text = "Exploring small open-source ideas"
-mark = "05"
