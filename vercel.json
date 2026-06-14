@@ -1,4 +1,4 @@
 {
-  "buildCommand": "pip install fonttools brotli && npm run build",
+  "buildCommand": "python -m pip install fonttools brotli && npm run build",
   "outputDirectory": "dist"
 }
