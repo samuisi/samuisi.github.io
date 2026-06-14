@@ -390,6 +390,17 @@ const hasSidebar = shouldRenderSidebar && hasToc;
     font-family: var(--font-page-heading);
   }
 
+  .article-content :global(strong),
+  .article-content :global(b) {
+    font-weight: 800;
+    color: #b06a10;
+  }
+
+  :global(:root[data-theme='dark']) .article-content :global(strong),
+  :global(:root[data-theme='dark']) .article-content :global(b) {
+    color: #e8973a;
+  }
+
   .article-content :global(p) {
     margin: 0 0 22px;
   }
