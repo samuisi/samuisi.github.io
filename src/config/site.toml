@@ -1,10 +1,10 @@
 [config.site]
-title = "navfolio"
-description = "A personal navigation portfolio starter built with Astro."
-pageTitle = "navfolio | Digital Publication Space"
-pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
-repository = "https://github.com/dodolalorc/astro-navfolio"
-footerNote = "Released as an open-source starter."
+title = "samuisi"
+description = "对技术祛魅的最好方式就是掌握它"
+pageTitle = "samuisi | Software Engineer"
+pageDescription = "一个正在努力转行AI的C++ developer"
+repository = "https://github.com/samuisi/samuisi.github.io"
+footerNote = "Built with Astro · navfolio"
 
 [config.vibe]
 showTrail = true
@@ -23,7 +23,7 @@ preserveIndent = true
 collapseStyle = "collapsible-auto"
 
 [config.comments]
-enabled = true
+enabled = false
 provider = "giscus"
 show_on_posts = true
 
@@ -65,15 +65,15 @@ pageview = true
 comment = true
 
 [config.profile]
-name = "navfolio"
-handle = "@navfolio"
-role = "A Cat Developer"
-company = "Independent Studio"
-location = "Remote"
-email = "hello@navfolio.site"
-website = "https://astro.navfolio.site/"
-github = "https://github.com/dodolalorc/astro-navfolio"
-meta = "Open-source maintainer"
+name = "samuisi"
+handle = "@samuisi"
+role = "Software Engineer"
+company = ""
+location = ""
+email = ""
+website = ""
+github = "https://github.com/samuisi"
+meta = "对技术祛魅的最好方式就是掌握它"
 avatar = "/images/logo.png"
 
 [[config.topNav.links]]
