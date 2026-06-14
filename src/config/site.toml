@@ -70,8 +70,8 @@ handle = "@samuisi"
 role = "Software Engineer"
 company = ""
 location = ""
-email = ""
-website = ""
+email = "hello@samuisi.github.io"
+website = "https://samuisi.github.io"
 github = "https://github.com/samuisi"
 meta = "对技术祛魅的最好方式就是掌握它"
 avatar = "/images/logo.png"
@@ -100,7 +100,7 @@ text = ["追寻能让自己感到快乐的东西"]
 image = "/images/logo-with-name.png"
 
 [config.home.intro]
-title = "hi, im samuisi"
+title = "hi, i'm samuisi"
 name = "samuisi"
 body = [
   "一个正在努力转行 AI 的 C++ developer。",
