@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import BlogTopNav from '../components/blog/BlogTopNav.astro';
 import { getThemePalette } from '../data/site';
 import { SpeedInsights } from '@vercel/speed-insights/astro';
+import { Analytics } from '@vercel/analytics/astro';
 
 interface Props {
   title: string;
@@ -22,5 +23,6 @@ const palette = await getThemePalette();
     <BlogTopNav />
     <slot />
     <SpeedInsights />
+    <Analytics />
   </body>
 </html>

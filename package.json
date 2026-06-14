@@ -25,6 +25,8 @@
     "@expressive-code/plugin-line-numbers": "^0.42.0",
     "@fontsource/maple-mono": "^5.2.6",
     "@tailwindcss/vite": "^4.3.0",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "astro": "^6.4.4",
     "astro-expressive-code": "^0.42.0",
     "lucide-astro": "^0.556.0",
