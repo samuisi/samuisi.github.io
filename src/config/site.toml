@@ -96,7 +96,7 @@ href = "/about"
 layout = "grid"
 
 [config.home.quote]
-text = ["追寻能让自己感到快乐的东西"]
+text = ["人若能虚己以游世，其孰能害之"]
 image = "/images/logo-with-name.png"
 
 [config.home.intro]

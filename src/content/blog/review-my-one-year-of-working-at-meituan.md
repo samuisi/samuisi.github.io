@@ -5,7 +5,7 @@ date: "2026-06-14T09:45:39.648Z"
 draft: false
 showHeroImage: false
 tags: []
-categories: []
+categories: ["生活杂谈"]
 series: []
 comments: true
 sidebar:
