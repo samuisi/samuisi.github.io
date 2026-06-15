@@ -1,6 +1,6 @@
 ---
 title: "回顾我在美团这一年"
-description: ""
+description: "来美团工作一年刚好赶上裁员潮，既然无法选择就坦然面对，分享从对大厂的憧憬到祛魅的心路历程。"
 date: "2026-06-14T09:45:39.648Z"
 draft: false
 showHeroImage: false
