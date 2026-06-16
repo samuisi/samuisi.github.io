@@ -34,7 +34,7 @@ sidebar:
 
 [力扣3957](https://leetcode.cn/problems/maximum-sum-of-m-non-overlapping-subarrays-ii/description/)：给一个长度为$n$的数组$nums$，$-10^5 \leq nums[i] \leq 10^5$，要求至少选1个，至多选$m$个**互不重叠的子数组**（注意不是子序列），每个子数组的长度要求在$[l, r]$区间内。
 
-求选出的子数组元素的最大值。
+求选出的所有子数组元素之和的最大值。
 
 ## 常规DP解法
 
