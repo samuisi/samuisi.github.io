@@ -7,6 +7,8 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 import expressiveCode from 'astro-expressive-code';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
 const customSite = process.env.SITE_URL;
@@ -34,6 +36,11 @@ export default defineConfig({
   site: resolvedSite,
   base: resolvedBase,
   integrations: [expressiveCode(), mdx(), sitemap()],
+
+  markdown: {
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeKatex],
+  },
 
   vite: {
     plugins: [tailwindcss()],
